@@ -1,0 +1,23 @@
+ 
+,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points
+Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms
+1,Sun,September 10,1:00PM ET,boxscore,W,,1-0,,Cincinnati Bengals,24,3,21,350,144,206,2,6,142,67,75,,-6.77,23.57,3.92
+2,Mon,September 18,8:15PM ET,boxscore,L,,1-1,@,Pittsburgh Steelers,22,26,20,408,210,198,4,9,255,200,55,2,-19.51,16.63,-2.81
+3,Sun,September 24,1:00PM ET,boxscore,W,,2-1,,Tennessee Titans,27,3,23,341,263,78,1,6,94,68,26,,13.99,13.12,-4.04
+4,Sun,October 1,1:00PM ET,boxscore,L,,2-2,,Baltimore Ravens,3,28,13,166,73,93,3,16,296,165,131,1,-25.42,-2.36,2.71
+5,,,,,,,,,Bye Week,,,,,,,,,,,,,,,
+6,Sun,October 15,1:00PM ET,boxscore,W,,3-2,,San Francisco 49ers,19,17,18,334,174,160,2,15,215,107,108,1,-11.32,6.05,7.34
+7,Sun,October 22,1:00PM ET,boxscore,W,,4-2,@,Indianapolis Colts,39,38,18,316,166,150,2,20,456,288,168,4,-5.30,-1.77,10.23
+8,Sun,October 29,4:05PM ET,boxscore,L,,4-3,@,Seattle Seahawks,20,24,23,385,230,155,3,17,362,248,114,2,0.00,-6.04,-2.50
+9,Sun,November 5,1:00PM ET,boxscore,W,,5-3,,Arizona Cardinals,27,0,17,326,213,113,,7,58,17,41,3,0.59,35.86,-7.62
+10,Sun,November 12,1:00PM ET,boxscore,W,,6-3,@,Baltimore Ravens,33,31,24,373,195,178,2,18,306,200,106,2,6.32,-2.49,-1.10
+11,Sun,November 19,1:00PM ET,boxscore,W,,7-3,,Pittsburgh Steelers,13,10,20,259,163,96,1,12,249,77,172,,-6.18,6.04,1.74
+12,Sun,November 26,4:05PM ET,boxscore,L,,7-4,@,Denver Broncos,12,29,19,269,162,107,3,17,294,125,169,1,-14.00,-3.83,0.36
+13,Sun,December 3,4:25PM ET,boxscore,L,,7-5,@,Los Angeles Rams,19,36,20,327,240,87,1,20,399,279,120,,-1.73,-16.49,1.43
+14,Sun,December 10,1:00PM ET,boxscore,W,,8-5,,Jacksonville Jaguars,31,27,16,389,307,82,3,20,293,235,58,4,-8.29,8.51,5.12
+15,Sun,December 17,1:00PM ET,boxscore,W,,9-5,,Chicago Bears,20,17,14,377,348,29,3,12,236,148,88,3,-20.66,20.51,3.15
+16,Sun,December 24,1:00PM ET,boxscore,W,,10-5,@,Houston Texans,36,22,26,418,364,54,2,20,250,178,72,2,12.38,9.69,-8.56
+17,Thu,December 28,8:15PM ET,boxscore,W,,11-5,,New York Jets,37,20,20,428,301,127,3,17,360,253,107,2,3.15,7.73,3.99
+18,Sun,January 7,1:00PM ET,boxscore,L,,11-6,@,Cincinnati Bengals,14,31,13,244,140,104,2,22,328,145,183,1,-8.30,-8.81,1.32
+,,Playoffs,,,,,,,,,,,,,,,,,,,,,,
+Wild Card,Sat,January 13,4:30PM ET,boxscore,L,,11-7,@,Houston Texans,14,45,18,324,268,56,2,14,356,280,76,,-19.50,-15.45,3.91

@@ -1,0 +1,21 @@
+ 
+,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points
+Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms
+1,Sun,September 10,1:00PM ET,boxscore,L,,0-1,@,Cleveland Browns,3,24,6,142,67,75,,21,350,144,206,2,-23.57,6.77,-3.92
+2,Sun,September 17,1:00PM ET,boxscore,L,,0-2,,Baltimore Ravens,24,27,19,282,216,66,1,26,415,237,178,,6.95,-18.73,6.67
+3,Mon,September 25,8:15PM ET,boxscore,W,,1-2,,Los Angeles Rams,19,16,19,309,242,67,1,15,292,221,71,2,-8.00,7.34,3.79
+4,Sun,October 1,1:00PM ET,boxscore,L,,1-3,@,Tennessee Titans,3,27,14,211,139,72,1,23,400,227,173,1,-9.18,-18.97,1.14
+5,Sun,October 8,4:05PM ET,boxscore,W,,2-3,@,Arizona Cardinals,34,20,27,380,287,93,1,15,294,152,142,3,4.11,9.49,0.68
+6,Sun,October 15,1:00PM ET,boxscore,W,,3-3,,Seattle Seahawks,17,13,15,214,168,46,1,24,384,297,87,2,-1.37,3.89,1.98
+7,,,,,,,,,Bye Week,,,,,,,,,,,,,,,
+8,Sun,October 29,4:25PM ET,boxscore,W,,4-3,@,San Francisco 49ers,31,17,29,400,266,134,1,24,460,347,113,3,18.30,-9.25,-2.48
+9,Sun,November 5,8:20PM ET,boxscore,W,,5-3,,Buffalo Bills,24,18,23,397,343,54,,21,317,249,68,2,14.35,-6.05,-0.96
+10,Sun,November 12,1:00PM ET,boxscore,L,,5-4,,Houston Texans,27,30,20,380,314,66,2,28,544,356,188,3,4.94,-13.25,4.46
+11,Thu,November 16,8:15PM ET,boxscore,L,,5-5,@,Baltimore Ravens,20,34,20,272,136,136,,22,405,248,157,,4.61,-19.09,-1.27
+12,Sun,November 26,1:00PM ET,boxscore,L,,5-6,,Pittsburgh Steelers,10,16,10,222,197,25,1,22,421,268,153,1,-6.04,-4.32,3.05
+13,Mon,December 4,8:15PM ET,boxscore,W,OT,6-6,@,Jacksonville Jaguars,34,31,27,491,335,156,1,23,376,305,71,,17.41,-13.98,0.31
+14,Sun,December 10,1:00PM ET,boxscore,W,,7-6,,Indianapolis Colts,34,14,19,385,274,111,1,19,272,226,46,2,6.86,4.37,8.34
+15,Sat,December 16,1:00PM ET,boxscore,W,OT,8-6,,Minnesota Vikings,27,24,22,378,298,80,1,24,424,281,143,2,9.29,-8.62,1.35
+16,Sat,December 23,4:30PM ET,boxscore,L,,8-7,@,Pittsburgh Steelers,11,34,17,368,309,59,3,16,397,284,113,,-7.25,-15.02,1.38
+17,Sun,December 31,4:25PM ET,boxscore,L,,8-8,@,Kansas City Chiefs,17,25,20,263,159,104,,15,373,241,132,1,1.31,-5.05,-3.55
+18,Sun,January 7,1:00PM ET,boxscore,W,,9-8,,Cleveland Browns,31,14,22,328,145,183,1,13,244,140,104,2,8.81,8.30,-1.32

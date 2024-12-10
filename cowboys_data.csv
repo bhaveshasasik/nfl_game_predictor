@@ -1,0 +1,23 @@
+ 
+,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points
+Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms
+1,Sun,September 10,8:20PM ET,boxscore,W,,1-0,@,New York Giants,40,0,18,265,143,122,,14,171,63,108,3,9.37,27.25,5.36
+2,Sun,September 17,4:25PM ET,boxscore,W,,2-0,,New York Jets,30,10,26,382,248,134,,12,215,151,64,4,7.01,14.82,-2.25
+3,Sun,September 24,4:25PM ET,boxscore,L,,2-1,@,Arizona Cardinals,16,28,26,416,231,185,1,20,400,178,222,,6.78,-18.46,-1.14
+4,Sun,October 1,4:25PM ET,boxscore,W,,3-1,,New England Patriots,38,3,22,377,253,124,,10,253,200,53,3,8.01,26.22,0.20
+5,Sun,October 8,8:20PM ET,boxscore,L,,3-2,@,San Francisco 49ers,10,42,8,197,140,57,4,25,421,251,170,1,-23.12,-12.84,5.21
+6,Mon,October 16,8:15PM ET,boxscore,W,,4-2,@,Los Angeles Chargers,20,17,20,342,246,96,1,18,272,219,53,1,8.96,1.30,-5.38
+7,,,,,,,,,Bye Week,,,,,,,,,,,,,,,
+8,Sun,October 29,1:00PM ET,boxscore,W,,5-2,,Los Angeles Rams,43,20,24,387,285,102,1,15,280,188,92,1,15.46,8.68,1.87
+9,Sun,November 5,4:25PM ET,boxscore,L,,5-3,@,Philadelphia Eagles,23,28,27,406,333,73,1,20,292,183,109,,10.90,-15.00,-2.75
+10,Sun,November 12,4:25PM ET,boxscore,W,,6-3,,New York Giants,49,17,32,640,472,168,2,16,172,61,111,1,31.00,8.61,-8.00
+11,Sun,November 19,1:00PM ET,boxscore,W,,7-3,@,Carolina Panthers,33,10,23,311,204,107,,13,187,77,110,2,14.98,13.81,-6.04
+12,Thu,November 23,4:30PM ET,boxscore,W,,8-3,,Washington Commanders,45,10,21,431,331,100,,23,376,268,108,1,25.86,9.65,-2.36
+13,Thu,November 30,8:15PM ET,boxscore,W,,9-3,,Seattle Seahawks,41,35,33,411,275,136,,25,406,334,72,1,24.14,-20.82,3.78
+14,Sun,December 10,8:20PM ET,boxscore,W,,10-3,,Philadelphia Eagles,33,13,24,394,256,138,1,17,324,218,106,3,10.85,4.61,2.77
+15,Sun,December 17,4:25PM ET,boxscore,L,,10-4,@,Buffalo Bills,10,31,14,195,106,89,1,28,351,85,266,,-3.23,-19.98,3.82
+16,Sun,December 24,4:25PM ET,boxscore,L,,10-5,@,Miami Dolphins,20,22,19,339,242,97,1,22,375,284,91,,8.66,-6.06,-4.74
+17,Sat,December 30,8:15PM ET,boxscore,W,,11-5,,Detroit Lions,20,19,17,384,323,61,2,21,420,295,125,2,0.39,0.45,1.92
+18,Sun,January 7,4:25PM ET,boxscore,W,,12-5,@,Washington Commanders,38,10,31,440,309,131,1,12,180,130,50,3,25.23,9.84,-7.97
+,,Playoffs,,,,,,,,,,,,,,,,,,,,,,
+Wild Card,Sun,January 14,4:30PM ET,boxscore,L,,12-6,,Green Bay Packers,32,48,37,510,387,123,2,22,415,272,143,,11.47,-27.79,-2.74

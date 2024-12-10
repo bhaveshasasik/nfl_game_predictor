@@ -1,0 +1,21 @@
+ 
+,,,,,,,,,,Score,Score,Offense,Offense,Offense,Offense,Offense,Defense,Defense,Defense,Defense,Defense,Expected Points,Expected Points,Expected Points
+Week,Day,Date,,,,OT,Rec,,Opp,Tm,Opp,1stD,TotYd,PassY,RushY,TO,1stD,TotYd,PassY,RushY,TO,Offense,Defense,Sp. Tms
+1,Sun,September 10,4:25PM ET,boxscore,L,,0-1,,Philadelphia Eagles,20,25,24,382,306,76,2,17,251,154,97,1,-12.04,10.42,-4.39
+2,Sun,September 17,8:20PM ET,boxscore,L,,0-2,,Miami Dolphins,17,24,23,288,200,88,2,22,389,244,145,1,-0.98,-13.09,7.69
+3,Sun,September 24,1:00PM ET,boxscore,W,,1-2,@,New York Jets,15,10,17,358,201,157,,12,171,133,38,,-2.13,15.20,-6.78
+4,Sun,October 1,4:25PM ET,boxscore,L,,1-3,@,Dallas Cowboys,3,38,10,253,200,53,3,22,377,253,124,,-26.22,-8.01,-0.20
+5,Sun,October 8,1:00PM ET,boxscore,L,,1-4,,New Orleans Saints,0,34,8,156,111,45,3,17,304,168,136,,-33.72,1.91,-3.40
+6,Sun,October 15,4:05PM ET,boxscore,L,,1-5,@,Las Vegas Raiders,17,21,17,259,176,83,1,19,348,264,84,1,3.68,-2.79,-5.62
+7,Sun,October 22,1:00PM ET,boxscore,W,,2-5,,Buffalo Bills,29,25,21,364,268,96,1,24,339,258,81,2,10.65,-11.63,5.61
+8,Sun,October 29,1:00PM ET,boxscore,L,,2-6,@,Miami Dolphins,17,31,13,218,141,77,1,24,390,312,78,2,-9.73,-10.64,3.59
+9,Sun,November 5,1:00PM ET,boxscore,L,,2-7,,Washington Commanders,17,20,18,327,220,107,1,23,432,308,124,2,0.28,-3.37,-1.30
+10,Sun,November 12,9:30AM ET,boxscore,L,,2-8,,Indianapolis Colts,6,10,21,340,173,167,2,14,264,194,70,1,-0.42,-0.31,-0.28
+11,,,,,,,,,Bye Week,,,,,,,,,,,,,,,
+12,Sun,November 26,1:00PM ET,boxscore,L,,2-9,@,New York Giants,7,10,18,283,136,147,3,10,220,162,58,1,-12.51,12.44,-2.86
+13,Sun,December 3,1:00PM ET,boxscore,L,,2-10,,Los Angeles Chargers,0,6,13,257,109,148,1,13,241,212,29,,-13.06,9.06,-4.71
+14,Thu,December 7,8:15PM ET,boxscore,W,,3-10,@,Pittsburgh Steelers,21,18,14,303,222,81,1,18,264,182,82,1,-4.53,9.55,-2.96
+15,Mon,December 17,1:00PM ET,boxscore,L,,3-11,,Kansas City Chiefs,17,27,10,206,154,52,1,19,326,283,43,2,-16.05,5.95,0.09
+16,Sun,December 24,8:15PM ET,boxscore,W,,4-11,@,Denver Broncos,26,23,12,289,230,59,1,19,276,193,83,2,-1.42,0.12,4.11
+17,Sun,December 31,1:00PM ET,boxscore,L,,4-12,@,Buffalo Bills,21,27,16,294,191,103,4,19,281,154,127,1,-11.94,-0.15,1.73
+18,Sun,January 7,1:00PM ET,boxscore,L,,4-13,,New York Jets,3,17,6,119,31,88,2,13,254,69,185,1,-27.43,10.78,3.32
