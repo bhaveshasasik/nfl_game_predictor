@@ -130,8 +130,8 @@ file_paths = [
 combined_data = preprocess_all_files(file_paths)
 
 
-model = joblib.load("./random_forest_model.joblib")
-scaler = joblib.load("./scaler.pkl")
+#model = joblib.load("./random_forest_model.joblib")
+#scaler = joblib.load("./scaler.pkl")
 
 home_team = st.selectbox("Home Team", team_list)
 away_team = st.selectbox("Away Team", team_list)
