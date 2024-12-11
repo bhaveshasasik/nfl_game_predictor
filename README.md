@@ -1,6 +1,6 @@
 # NFL Game Predictor
 
-Welcome to the **NFL Game Predictor** repository! This project uses a **Random Forest Classifier** to predict the outcomes of NFL games based on team statistics. The predictions include confidence scores and take into account home-field advantage. This repository contains the backend machine learning model and all necessary datasets. Our front-end is hosted on **Streamlit** at [NFL Game Predictor App](https://nflgamepredictor-5hckdtkzbdzot6ynmrtpky.streamlit.app).
+Welcome to the **NFL Game Predictor** repository! This project uses a **Random Forest Classifier** to predict the outcomes of NFL games based on team statistics specifically for only the 2022-2023 Season. The predictions include confidence scores and take into account home-field advantage. This repository contains the backend machine learning model and all necessary datasets. Our front-end is hosted on **Streamlit** at [NFL Game Predictor App](https://nflgamepredictor-5hckdtkzbdzot6ynmrtpky.streamlit.app).
 
 ---
 
