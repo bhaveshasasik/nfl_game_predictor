@@ -168,7 +168,7 @@ if st.button("Predict", type="primary"):
         st.text("A team can't play against itself")
     else:
         output,confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
-        st.success(output)
-        st.success(confidence)
+        st.success("Predicted Winner: "+str(output))
+        st.success("Confidence: "+str(confidence))
     
 
