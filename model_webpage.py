@@ -130,9 +130,9 @@ file_paths = [
     './49ers_data.csv'
 ]
 
-combined_data = preprocess_all_files(file_paths)
-model = joblib.load("random_forest_model.joblib")
-scaler = joblib.load("scaler.pkl")
+#combined_data = preprocess_all_files(file_paths)
+#model = joblib.load("random_forest_model.joblib")
+#scaler = joblib.load("scaler.pkl")
 
 home_team = st.selectbox("Home Team", team_list)
 away_team = st.selectbox("Away Team", team_list)
@@ -144,7 +144,7 @@ if st.button("Predict", type="primary"):
     elif home_team == away_team:
         st.text("A team can't play against itself")
     else:
-        output,confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
+        output, confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
         st.success("Projected Winner: " + output)
         st.success("Confidence: " + confidence)
     
