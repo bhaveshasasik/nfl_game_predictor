@@ -1,6 +1,11 @@
-import joblib
 import streamlit as st
 import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, classification_report
+from sklearn.model_selection import train_test_split
+
 
 def preprocess_all_files(file_paths):
     all_data = []
@@ -33,6 +38,27 @@ def preprocess_all_files(file_paths):
     combined_data = pd.concat(all_data, ignore_index=True)
     return combined_data
 
+def train_and_evaluate_model(combined_data):
+    features = ['Team_TotalYards', 'Team_PassYards', 'Team_RushYards', 'Team_Turnovers',
+                'Opponent_TotalYards', 'Opponent_PassYards', 'Opponent_RushYards', 'Opponent_Turnovers', 'Home_Field']
+    combined_data['Outcome'] = (combined_data['Team_Points'] > combined_data['Opponent_Points']).astype(int)
+    X = combined_data[features]
+    y = combined_data['Outcome']
+
+    # Split data into train and test sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
+
+    # Normalize features
+    scaler = StandardScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
+
+    # Train model
+    model = RandomForestClassifier(random_state=42)
+    model.fit(X_train, y_train)
+
+
+    return model, combined_data, scaler
 
 def predict_matchup(model, combined_data, scaler, team_a, team_b, home_team):
     team_a_stats = combined_data[combined_data['Team'] == team_a].iloc[0][
@@ -52,6 +78,45 @@ def predict_matchup(model, combined_data, scaler, team_a, team_b, home_team):
     probability = model.predict_proba(matchup_stats)[0][1]
     outcome = team_a if prediction[0] == 1 else team_b
     return outcome, probability
+
+file_paths = [
+    'bears_data.csv',
+    'bengals_data.csv',
+    'bills_data.csv',
+    'broncos_data.csv',
+    'browns_data.csv',
+    'buccaneers_data.csv',
+    'cardinals_data.csv',
+    'chargers_data.csv',
+    'chiefs_data.csv',
+    'colts_data.csv',
+    'commanders_data.csv',
+    'cowboys_data.csv',
+    'dolphins_data.csv',
+    'eagles_data.csv',
+    'falcons_data.csv',
+    'giants_data.csv',
+    'jaguars_data.csv',
+    'jets_data.csv',
+    'lions_data.csv',
+    'packers_data.csv',
+    'panthers_data.csv',
+    'patriots_data.csv',
+    'raiders_data.csv',
+    'rams_data.csv',
+    'ravens_data.csv',
+    'saints_data.csv',
+    'seahawks_data.csv',
+    'steelers_data.csv',
+    'texans_data.csv',
+    'titans_data.csv',
+    'vikings_data.csv',
+    '49ers_data.csv'
+]
+
+# Preprocess all files and train model
+combined_data = preprocess_all_files(file_paths)
+model, combined_data, scaler = train_and_evaluate_model(combined_data)
 
 
 st.write("""
@@ -92,47 +157,6 @@ team_list = ['Select Team',
     'Vikings',
     '49ers']
 
-file_paths = [
-    './bears_data.csv',
-    './bengals_data.csv',
-    './bills_data.csv',
-    './broncos_data.csv',
-    './browns_data.csv',
-    './buccaneers_data.csv',
-    './cardinals_data.csv',
-    './chargers_data.csv',
-    './chiefs_data.csv',
-    './colts_data.csv',
-    './commanders_data.csv',
-    './cowboys_data.csv',
-    './dolphins_data.csv',
-    './eagles_data.csv',
-    './falcons_data.csv',
-    './giants_data.csv',
-    './jaguars_data.csv',
-    './jets_data.csv',
-    './lions_data.csv',
-    './packers_data.csv',
-    './panthers_data.csv',
-    './patriots_data.csv',
-    './raiders_data.csv',
-    './rams_data.csv',
-    './ravens_data.csv',
-    './saints_data.csv',
-    './seahawks_data.csv',
-    './steelers_data.csv',
-    './texans_data.csv',
-    './titans_data.csv',
-    './vikings_data.csv',
-    './49ers_data.csv'
-]
-
-combined_data = preprocess_all_files(file_paths)
-
-
-#model = joblib.load("./random_forest_model.joblib")
-#scaler = joblib.load("./scaler.pkl")
-
 home_team = st.selectbox("Home Team", team_list)
 away_team = st.selectbox("Away Team", team_list)
 
@@ -143,9 +167,8 @@ if st.button("Predict", type="primary"):
     elif home_team == away_team:
         st.text("A team can't play against itself")
     else:
-        output, confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
+        output,confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
         st.success(output)
         st.success(confidence)
-
     
 
