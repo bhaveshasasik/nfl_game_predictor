@@ -1,7 +1,6 @@
+import joblib
 import streamlit as st
 import pandas as pd
-import joblib
-
 
 def preprocess_all_files(file_paths):
     all_data = []
@@ -52,8 +51,6 @@ def predict_matchup(model, combined_data, scaler, team_a, team_b, home_team):
     prediction = model.predict(matchup_stats)
     probability = model.predict_proba(matchup_stats)[0][1]
     outcome = team_a if prediction[0] == 1 else team_b
-    print(f"Predicted Winner: {outcome}")
-    print(f"Confidence: {probability:.2f}")
     return outcome, probability
 
 
@@ -131,6 +128,8 @@ file_paths = [
 ]
 
 combined_data = preprocess_all_files(file_paths)
+
+
 model = joblib.load("random_forest_model.joblib")
 scaler = joblib.load("scaler.pkl")
 
@@ -145,13 +144,8 @@ if st.button("Predict", type="primary"):
         st.text("A team can't play against itself")
     else:
         output, confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
-        st.success(output)
-        st.success(confidence)
-    
-
-
-    
-
+        st.success("Projected Winner: " + output)
+        st.success("Confidence: " + confidence)
 
     
 
