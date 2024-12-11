@@ -1,4 +1,3 @@
-pickle
 joblib
 numpy
 pandas
