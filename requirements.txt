@@ -1,3 +1,4 @@
 streamlit
 joblib
 pandas
+pickle
