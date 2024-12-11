@@ -127,7 +127,7 @@ file_paths = [
     './49ers_data.csv'
 ]
 
-#combined_data = preprocess_all_files(file_paths)
+combined_data = preprocess_all_files(file_paths)
 
 
 #model = joblib.load("./random_forest_model.joblib")
