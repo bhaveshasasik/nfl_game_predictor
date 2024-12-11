@@ -130,8 +130,8 @@ file_paths = [
 combined_data = preprocess_all_files(file_paths)
 
 
-#model = joblib.load("random_forest_model.joblib")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("./random_forest_model.joblib")
+scaler = joblib.load("./scaler.pkl")
 
 home_team = st.selectbox("Home Team", team_list)
 away_team = st.selectbox("Away Team", team_list)
@@ -144,8 +144,8 @@ if st.button("Predict", type="primary"):
         st.text("A team can't play against itself")
     else:
         output, confidence = predict_matchup(model, combined_data, scaler, home_team.lower(), away_team.lower(), home_team.lower())
-        st.success("Projected Winner: " + output)
-        st.success("Confidence: " + confidence)
+        st.success(output)
+        st.success(confidence)
 
     
 
